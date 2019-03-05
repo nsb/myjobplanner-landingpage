@@ -17,9 +17,17 @@
 
 	.site-logo {
 		position: relative;
+		display:flex;
+		align-items: center;
+		justify-content:flex-start;  
 		top: -4px;
 		a {
 			color: $white;
+		}
+		img {
+			width: 48px;
+			height: 48px;
+			margin-right: 10px;
 		}
 	}
 	

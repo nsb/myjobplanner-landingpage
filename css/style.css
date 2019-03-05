@@ -279,9 +279,17 @@ h1, h2, h3, h4, h5,
     width: 100%; }
   .site-navbar .site-logo {
     position: relative;
+    display:flex;
+    align-items: center;
+    justify-content:flex-start;  
     top: -4px; }
     .site-navbar .site-logo a {
       color: #fff; }
+    .site-navbar .site-logo img {
+      width: 48px;
+      height: 48px;
+      margin-right: 10px;
+    }
   .site-navbar .site-menu-toggle {
     color: #fff; }
   .site-navbar .site-navigation.border-bottom {
